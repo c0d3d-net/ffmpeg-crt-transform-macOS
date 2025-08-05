@@ -16,7 +16,7 @@ Syntax: ```ffcrt.sh <config_file> <input_file> [output_file]```
 ## Tips
 
 - Input is expected to have the same resolution (=*storage* aspect ratio, SAR) of the video mode you are simulating, including overscan if any.
-- The aspect ratio **of the simulated screen** (=*display* aspect ratio, DAR) is not set directly, but depends on the SAR and on the *pixel* aspect ratio (PAR):  DAR=SARâ—ŠPAR.  The PAR is set with the ```PX_ASPECT``` parameter.
+- The aspect ratio **of the simulated screen** (=*display* aspect ratio, DAR) is not set directly, but depends on the SAR and on the *pixel* aspect ratio (PAR):  DAR=SAR×PAR.  The PAR is set with the ```PX_ASPECT``` parameter.
 - The aspect ratio **of your final output** is set separately with the ```OASPECT``` parameter.  If it's different from the above, the simulated screen will be scaled and padded as necessary while maintaining its aspect ratio, so you can have e.g. a 4:3 screen centered in a 16:9 video.
 
 - Processing speed and quality is determined by the ```PRESCALE_BY``` setting.  This also affects FFmpeg's RAM consumption, so if you get memory allocation errors try a lower factor.
