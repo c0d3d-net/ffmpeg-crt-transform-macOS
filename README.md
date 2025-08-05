@@ -1,7 +1,11 @@
-# FFmpeg CRT Transform
+# FFmpeg CRT Transform for macOS and Linux
 
 macOS and Linux shell script for a configurable simulation of CRT monitors (and some older flat-panel displays too), given an input image/video.<br>
 Requires a *git-master* build of FFmpeg from **2021-01-27** or newer, due to a couple of bugfixes and new features.<br>
+
+<br>
+This source is based on the windows batch version by <a href="https://github.com/viler-int10h/FFmpeg-CRT-transform">VileR </a>
+<br>
 
 ## Usage and Configuration
 
@@ -16,7 +20,7 @@ Syntax: ```ffcrt.sh <config_file> <input_file> [output_file]```
 ## Tips
 
 - Input is expected to have the same resolution (=*storage* aspect ratio, SAR) of the video mode you are simulating, including overscan if any.
-- The aspect ratio **of the simulated screen** (=*display* aspect ratio, DAR) is not set directly, but depends on the SAR and on the *pixel* aspect ratio (PAR):  DAR=SAR×PAR.  The PAR is set with the ```PX_ASPECT``` parameter.
+- The aspect ratio **of the simulated screen** (=*display* aspect ratio, DAR) is not set directly, but depends on the SAR and on the *pixel* aspect ratio (PAR):  DAR=SARâ—ŠPAR.  The PAR is set with the ```PX_ASPECT``` parameter.
 - The aspect ratio **of your final output** is set separately with the ```OASPECT``` parameter.  If it's different from the above, the simulated screen will be scaled and padded as necessary while maintaining its aspect ratio, so you can have e.g. a 4:3 screen centered in a 16:9 video.
 
 - Processing speed and quality is determined by the ```PRESCALE_BY``` setting.  This also affects FFmpeg's RAM consumption, so if you get memory allocation errors try a lower factor.
@@ -28,11 +32,12 @@ Syntax: ```ffcrt.sh <config_file> <input_file> [output_file]```
 
 ## Write-ups, videos, sample images
 
-1. **Color CRTs:<br><br>
+1. **Color CRTs:<br>
 <img src="https://raw.githubusercontent.com/viler-int10h/FFmpeg-CRT-transform/images/r01s.png" height="480">
-
-2. **Monochrome CRTs:<br><br>
+<br>
+2. **Monochrome CRTs:<br>
 <img src="https://raw.githubusercontent.com/viler-int10h/FFmpeg-CRT-transform/images/r02s.png" height="480">
-
-3. **Flat-Panel Displays:<br><br>
+<br>
+3. **Flat-Panel Displays:<br>
 <img src="https://raw.githubusercontent.com/viler-int10h/FFmpeg-CRT-transform/images/r02s.png" height="480">
+<br>
