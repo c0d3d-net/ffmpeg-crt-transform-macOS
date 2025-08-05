@@ -29,7 +29,7 @@ Syntax: ```ffcrt.sh <config_file> <input_file> [output_file]```
 ## Write-ups, videos, sample images
 
 1. **Color CRTs:** https://int10h.org/blog/2021/01/simulating-crt-monitors-ffmpeg-pt-1-color/<br><br>
-<a href="https://int10h.org/blog/2021/01/simulating-crt-monitors-ffmpeg-pt-1-color/"><img src="../images/r01s.png?raw=true" height="480"> </a>
+<img src="https://int10h.org/blog/2021/01/images/r01s.png?raw=true" height="480">
 
 2. **Monochrome CRTs:** https://int10h.org/blog/2021/02/simulating-crt-monitors-ffmpeg-pt-2-monochrome/<br><br>
 <a href="https://int10h.org/blog/2021/02/simulating-crt-monitors-ffmpeg-pt-2-monochrome/"><img src="../images/r02s.png?raw=true" height="480"> </a>
