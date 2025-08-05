@@ -28,11 +28,11 @@ Syntax: ```ffcrt.sh <config_file> <input_file> [output_file]```
 
 ## Write-ups, videos, sample images
 
-1. **Color CRTs:** https://int10h.org/blog/2021/01/simulating-crt-monitors-ffmpeg-pt-1-color/<br><br>
-<img src="https://int10h.org/blog/2021/01/images/r01s.png?raw=true" height="480">
+1. **Color CRTs:<br><br>
+<img src="https://raw.githubusercontent.com/viler-int10h/FFmpeg-CRT-transform/images/r01s.png" height="480">
 
-2. **Monochrome CRTs:** https://int10h.org/blog/2021/02/simulating-crt-monitors-ffmpeg-pt-2-monochrome/<br><br>
-<a href="https://int10h.org/blog/2021/02/simulating-crt-monitors-ffmpeg-pt-2-monochrome/"><img src="../images/r02s.png?raw=true" height="480"> </a>
+2. **Monochrome CRTs:<br><br>
+<img src="https://raw.githubusercontent.com/viler-int10h/FFmpeg-CRT-transform/images/r02s.png" height="480">
 
-3. **Flat-Panel Displays:** https://int10h.org/blog/2021/03/simulating-non-crt-monitors-ffmpeg-flat-panels/<br><br>
-<a href="https://int10h.org/blog/2021/03/simulating-non-crt-monitors-ffmpeg-flat-panels/"><img src="../images/r03s.png?raw=true" height="480"> </a>
+3. **Flat-Panel Displays:<br><br>
+<img src="https://raw.githubusercontent.com/viler-int10h/FFmpeg-CRT-transform/images/r02s.png" height="480">
